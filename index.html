@@ -4,39 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href=./style.css>
 </head>
 <body>
   <div class="container">
     <div class="row">
       <div class="col">
-        <img src=C:\Users\meghana\Desktop\bootcamp\images\realmadrid.jpg alt="">
-      </div>
-      <div class="row">
-        <span>0</span><br>
-        <span>1</span><br>
-        <span>1</span><br>
-        <span>0</span><br>
-        <span>1</span><br>
-      </div><br>
-      <div class="col">
-        <span>3</span>
-        <span>-</span>
-        <span>3</span>
-      </div><br>
-      <div class="col">
-        <img src=C:\Users\meghana\Desktop\bootcamp\images\huseca.jpg alt="">
-      </div>
-      <div class="row">
-        <span>1</span><br>
-        <span>1</span><br>
-        <span>0</span><br>
-        <span>0</span><br>
-      </div>
-      <input type="text" value="Try Again">
 
+        <img class="profile-icon" src=./images/realmadrid.jpg alt="ri" height="150px" width="150px">
+
+      <span class="name" id="team-1-name">Real Madrid</span>
+      
+        <div class="row round-runs" id="team-1-round-runs">
+          <span class="col">-</span>
+          <span class="col">-</span>
+          <span class="col">-</span>
+          <span class="col">-</span>
+          <span class="col">-</span>
+          <span class="col">-</span>
+        </div>
+     </div>  
+      <div class="col">
+        <div class="row score">
+          <span id="team-1-score">O</span>
+          <span>-</span>
+          <span id="team-2-score">O</span>
+        </div>
+      </div>
+          <div class="col">
+
+              <img class="profile-icon" src=./images/huseca.jpg alt="hu" height="150px" width="150px">
+
+      <span class="name" id="team-2-name">Huseca</span>
+      <div class="row round-runs" id="team-2-round-runs">
+        <span class="col">-</span>
+        <span class="col">-</span>
+        <span class="col">-</span>
+        <span class="col">-</span>
+        <span class="col">-</span>
+        <span class="col">-</span>
+      </div>
+    </div>
+  </div>
+      
+   <div class="row">
+      <div class="col">
+        <button id="strike-button-1">Try Again</button>
+      </div>
+      <div class="col">
+        <button id="strike-button-2">Huseca Strike</button>
+      </div>
     </div>
 
+
+    
   </div>
   
 </body>
